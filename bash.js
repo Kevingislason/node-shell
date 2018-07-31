@@ -14,6 +14,3 @@ process.stdin.on('data', data => {
       break;
   }
 });
-
-const pwd = require('./pwd');
-const ls = require('./ls');
