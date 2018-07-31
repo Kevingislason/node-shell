@@ -7,7 +7,7 @@ module.exports = function(cmd) {
         throw err;
       } else {
         process.stdout.write(files.join('\n'));
-        process.stdout.write('prompt >');
+        process.stdout.write('\nprompt > ');
         return true;
       }
     });
